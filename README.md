@@ -4,17 +4,19 @@ Built and maintained by Roman (GitHub: romangigliotti123-arch)
 
 The Claude kit of the Roblox Dev Mastery Vault (Roblox game development knowledge base plus a manager toolkit): 15 Roblox agents, slash-command skills (`/game-dev-workflow`, `/make-roblox-game`, `/vault-update`, ...), helper tools, and the setup runbook for AI agents.
 
+**Off by default.** The kit is installed but does not load into normal Claude Code sessions: its skills and agents sit in an on-demand store (`~/.claude/claude-kit/vault-mode/`). In a Roblox project folder, type `/load-vault`: that folder enters "Roblox dev mode" (the vault skills and agents, art-direction and visual-QA rules, reference images, learn step) and `/unload-vault` turns it off again. Always available: `/load-vault`, `/unload-vault`, `/vault-update`, `/update-check`, `/uninstall`.
+
 ## Install (one paste)
 
 Paste this to Claude on the computer you want to set up:
 
 > Set up the Roblox Dev Mastery Vault on my computer: fetch https://raw.githubusercontent.com/romangigliotti123-arch/vault-kit-01/main/SETUP-FOR-CLAUDE.md with curl and follow it exactly.
 
-Claude clones the notes (https://github.com/romangigliotti123-arch/vault-notes-01.git), installs this kit, downloads the assets and reports at the end. No questions, no tokens, no sudo. The runbook lists every command and everything it changes before it runs anything.
+Claude clones the notes (https://github.com/romangigliotti123-arch/vault-notes-01.git), installs this kit (switched off), downloads the assets and reports at the end; then type `/load-vault` in your Roblox project folder. No questions, no tokens, no sudo. The runbook lists every command and everything it changes before it runs anything.
 
 ## Update (one skill)
 
-Run `/vault-update` in Claude. It pulls new notes from vault-notes, refreshes the installed kit and downloads changed asset zips. `/update-check` only reports whether something newer exists.
+Run `/vault-update` in Claude. It pulls new notes from vault-notes, refreshes the installed kit (and the folders where Roblox dev mode is loaded; an older always-on install is moved to the on-demand store automatically) and downloads changed asset zips. `/update-check` only reports whether something newer exists.
 
 ## Repositories
 

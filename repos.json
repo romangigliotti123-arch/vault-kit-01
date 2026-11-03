@@ -8,6 +8,7 @@
    "known_units": [
     "claude-kit/agents/",
     "claude-kit/examples/",
+    "claude-kit/mode/",
     "claude-kit/mods/",
     "claude-kit/skillpack/",
     "claude-kit/skills/",
