@@ -17,7 +17,7 @@
    "prefix": "vault-kit",
    "shards": [
     {
-     "approx_mb": 2.3,
+     "approx_mb": 2.4,
      "git": "https://github.com/romangigliotti123-arch/vault-kit-01.git",
      "mount": [],
      "name": "vault-kit-01"
@@ -37,7 +37,7 @@
    "prefix": "vault-notes",
    "shards": [
     {
-     "approx_mb": 110.3,
+     "approx_mb": 110.4,
      "git": "https://github.com/romangigliotti123-arch/vault-notes-01.git",
      "mount": [],
      "name": "vault-notes-01"
@@ -46,11 +46,38 @@
   },
   "assets": {
    "prefix": "vault-assets",
-   "shards": [],
+   "shards": [
+    {
+     "approx_mb": 845.8,
+     "dir": "https://github.com/romangigliotti123-arch/vault-assets-01/releases/download/assets",
+     "git": "https://github.com/romangigliotti123-arch/vault-assets-01.git",
+     "name": "vault-assets-01",
+     "zips": {
+      "3d-models.zip": 153002517,
+      "textures.zip": 733906944
+     }
+    },
+    {
+     "approx_mb": 124.7,
+     "dir": "https://github.com/romangigliotti123-arch/vault-assets-02/releases/download/assets",
+     "git": "https://github.com/romangigliotti123-arch/vault-assets-02.git",
+     "name": "vault-assets-02",
+     "zips": {
+      "audio.zip": 15099492,
+      "catalog.zip": 77044,
+      "code.zip": 67807817,
+      "hdris.zip": 47766289
+     }
+    }
+   ],
    "sources": [
     {
-     "name": "netlify-site",
-     "dir": "https://vault-hhmi60uo.netlify.app/assets"
+     "name": "vault-assets-01",
+     "dir": "https://github.com/romangigliotti123-arch/vault-assets-01/releases/download/assets"
+    },
+    {
+     "name": "vault-assets-02",
+     "dir": "https://github.com/romangigliotti123-arch/vault-assets-02/releases/download/assets"
     }
    ]
   }
@@ -65,8 +92,12 @@
  },
  "assets": [
   {
-   "name": "netlify-site",
-   "dir": "https://vault-hhmi60uo.netlify.app/assets"
+   "name": "vault-assets-01",
+   "dir": "https://github.com/romangigliotti123-arch/vault-assets-01/releases/download/assets"
+  },
+  {
+   "name": "vault-assets-02",
+   "dir": "https://github.com/romangigliotti123-arch/vault-assets-02/releases/download/assets"
   }
  ]
 }
