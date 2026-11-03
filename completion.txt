@@ -14,7 +14,7 @@ Research
 Manager
 - /manager-mode : this session delegates to right-sized worker agents (haiku/sonnet/opus).
 Vault
-- /vault-update (safe update, keeps My Research), /vault-update-clean (exact copy of the main vault), /light-mode-on and /light-mode-off (hide or show the big supporting folders in Obsidian). /low-usage-mode (keeps Claude in low usage mode: cheapest model, short replies, small tool output; /low-usage-mode off ends it).
+- /vault-update (safe update, keeps My Research), /vault-update-clean (exact copy of the main vault), /light-mode-on and /light-mode-off (hide or show the big supporting folders in Obsidian). /low-usage-mode (keeps Claude in low usage mode: cheapest model, short replies, small tool output; /low-usage-mode off ends it). /vault-learn (record a verified finding; curated notes land in learned/ and are checked first).
 Roblox specialist skills (Claude picks them, or call by name)
 - Design and research: roblox-game-ideas, roblox-trend-research, roblox-gdd-template, roblox-kb-answer, roblox-metrics-benchmarks.
 - Code: roblox-luau-style, roblox-remote-security, roblox-datastore-safe-save, roblox-round-based-game-loop, roblox-npc-pathfinding, roblox-ui-responsive, roblox-rojo-project-setup, roblox-performance-pass, roblox-leaderboards-and-events.
