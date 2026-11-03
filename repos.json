@@ -1,6 +1,6 @@
 {
  "format": 2,
- "about": "Where the Roblox Dev Mastery Vault lives. Three groups of GitHub repositories (kit, notes, assets), each a numbered series; clients read this file, clone/pull ALL shards of the groups and merge the asset folders, so a new shard needs no change on the user's side.",
+ "about": "Where the Roblox Dev Mastery Vault lives. Four groups of GitHub repositories (kit, notes, assets, refs), each a numbered series; clients read this file, clone/pull ALL shards of the groups and merge the asset folders, so a new shard needs no change on the user's side.",
  "site": "https://vault-hhmi60uo.netlify.app",
  "threshold_mb": 900,
  "groups": {
@@ -80,6 +80,56 @@
      "dir": "https://github.com/romangigliotti123-arch/vault-assets-02/releases/download/assets"
     }
    ]
+  },
+  "refs": {
+   "known_units": [
+    "img/99-nights-in-the-forest-mobile/",
+    "img/99-nights-in-the-forest/",
+    "img/adopt-me/",
+    "img/animal-hospital/",
+    "img/anime-vanguards/",
+    "img/blox-fruits/",
+    "img/bubble-gum-simulator-infinity/",
+    "img/creatures-of-sonaria/",
+    "img/dandys-world/",
+    "img/deepwoken/",
+    "img/doors-mobile/",
+    "img/doors/",
+    "img/dress-to-impress/",
+    "img/fisch-mobile/",
+    "img/fisch/",
+    "img/fish-it/",
+    "img/forsaken/",
+    "img/frontlines/",
+    "img/grow-a-garden-mobile/",
+    "img/grow-a-garden/",
+    "img/guts-blackpowder/",
+    "img/hellreaver-arena/",
+    "img/jujutsu-shenanigans/",
+    "img/livetopia/",
+    "img/pet-simulator-99/",
+    "img/piggy-intercity/",
+    "img/plants-vs-brainrots/",
+    "img/rivals-mobile/",
+    "img/rivals/",
+    "img/scrapbook-saga/",
+    "img/sols-rng/",
+    "img/sonaria-mobile/",
+    "img/steal-a-brainrot/",
+    "img/the-forge/",
+    "img/tower-defense-simulator/",
+    "img/tower-defense-x/",
+    "img/ttk/"
+   ],
+   "prefix": "vault-refs",
+   "shards": [
+    {
+     "approx_mb": 28.8,
+     "git": "https://github.com/romangigliotti123-arch/vault-refs-01.git",
+     "mount": [],
+     "name": "vault-refs-01"
+    }
+   ]
   }
  },
  "kit": {
@@ -99,5 +149,9 @@
    "name": "vault-assets-02",
    "dir": "https://github.com/romangigliotti123-arch/vault-assets-02/releases/download/assets"
   }
- ]
+ ],
+ "refs": {
+  "git": "https://github.com/romangigliotti123-arch/vault-refs-01.git",
+  "branch": "main"
+ }
 }
