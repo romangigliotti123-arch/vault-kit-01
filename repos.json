@@ -39,7 +39,7 @@
    "prefix": "vault-notes",
    "shards": [
     {
-     "approx_mb": 113.5,
+     "approx_mb": 113.8,
      "git": "https://github.com/romangigliotti123-arch/vault-notes-01.git",
      "mount": [],
      "name": "vault-notes-01"
@@ -140,7 +140,7 @@
    "prefix": "vault-refs",
    "shards": [
     {
-     "approx_mb": 56.7,
+     "approx_mb": 57.4,
      "git": "https://github.com/romangigliotti123-arch/vault-refs-01.git",
      "mount": [],
      "name": "vault-refs-01"
