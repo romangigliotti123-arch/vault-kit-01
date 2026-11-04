@@ -14,6 +14,10 @@ Paste this to Claude on the computer you want to set up:
 
 Claude clones the notes (https://github.com/romangigliotti123-arch/vault-notes-01.git), installs this kit (switched off), downloads the assets and reports at the end; then type `/rbx-load` in your Roblox project folder. No questions, no tokens, no sudo. The runbook lists every command and everything it changes before it runs anything.
 
+## What you trust
+
+Installing runs code from this repository with your user rights (no admin): whoever controls the GitHub account `romangigliotti123-arch` controls what an update installs. Updates are manual (`/rbx-update`) unless you add the optional logon task. The tools only accept HTTPS sources under that account, verify asset zips by SHA-256 before extracting, and write extra repository shards only to the folders their `mount` list names. The full list, with how to verify and preview an update, is the "Trust model" in `claude-kit/INSTALL.md`.
+
 ## Update (one skill)
 
 Run `/rbx-update` in Claude. It pulls new notes from vault-notes, refreshes the installed kit (and the folders where Roblox dev mode is loaded; an older always-on install is moved to the on-demand store automatically) and downloads changed asset zips. `/rbx-check` only reports whether something newer exists.
