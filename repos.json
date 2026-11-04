@@ -140,7 +140,7 @@
    "prefix": "vault-refs",
    "shards": [
     {
-     "approx_mb": 57.4,
+     "approx_mb": 57.7,
      "git": "https://github.com/romangigliotti123-arch/vault-refs-01.git",
      "mount": [],
      "name": "vault-refs-01"
