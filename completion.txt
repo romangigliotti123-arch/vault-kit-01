@@ -2,7 +2,7 @@ The Roblox Dev Mastery Vault is now set up.
 Where it lives: <VAULT path> (Claude kit in ~/.claude, Roblox assets in <VAULT path>/Assets).
 
 Switch it on (the vault is OFF in every Claude session until you do this)
-- In your Roblox project folder start Claude and type /load-rbxdev-vault : Roblox dev mode (vault skills, agents, art-direction, placement and visual-QA rules, reference images, learn step). /unload-rbxdev-vault turns it off again. Always available: /load-rbxdev-vault /unload-rbxdev-vault /update-rbxdev-vault /update-check-rbxdev-vault /uninstall-rbxdev-vault.
+- In your Roblox project folder start Claude and type /load-rbxdev-vault : Roblox dev mode (vault skills, agents, art-direction, placement, lighting and visual-QA rules, reference images, learn step). /unload-rbxdev-vault turns it off again. Always available: /load-rbxdev-vault /unload-rbxdev-vault /update-rbxdev-vault /update-check-rbxdev-vault /uninstall-rbxdev-vault.
 Make a game (after /load-rbxdev-vault)
 - /game-dev-workflow : the full flow. Give an idea (or none); it elaborates it from the vault, rates it 1.00-10.00, writes a build plan, asks "Ready to build?", then a head manager builds it and playtests.
 - /make-roblox-game : one sentence in, a Rojo/Luau game project out (also: say "make me a Roblox game: <idea>").
@@ -11,7 +11,8 @@ Side skills (each also works alone)
 - /game-dev-plan : turn a rated idea into game-plan.md (systems, milestones, agents, models, budget).
 - /game-dev-ads : ads plan for a game. /game-dev-update : update and live-ops plan.
 - /game-dev-playtest : playtest and bug report. /game-dev-thumbnail : icon, thumbnails and screenshots.
-- /game-dev-placement-qa : placement gate; every model created, inserted or moved is measured in Studio (pivot, size, grounded, upright, facing, overlap, anchoring, connections), auto-fixed and re-verified; a full-map scan must pass before a game is called done. /game-dev-art-direction : art bible before building. /game-dev-visual-qa : screenshot-based visual gate.
+- /game-dev-placement-qa : placement gate; every model created, inserted or moved is measured in Studio (pivot, size, grounded, upright, facing, overlap, anchoring, connections), auto-fixed and re-verified; a full-map scan must pass before a game is called done. /game-dev-lighting-qa : lighting and atmosphere gate; the genre's preset (Future lighting, Atmosphere, Sky, Bloom, ColorCorrection, SunRays, mobile-safe variant) is applied early and a 12-check scan (not default Roblox, sane effects, brightness, shadows, fog, interiors, budget) must pass before a game is called done. /game-dev-art-direction : art bible before building. /game-dev-visual-qa : screenshot-based visual gate.
+- /game-dev-benchmark : scorecard of a game across every gate (0-100, history, compare), 3 standard test games, and what load mode costs a session.
 Research
 - /deep-topic-research-rbxdev-vault : deep multi-source research on any topic, saved to My Research/.
 Manager
