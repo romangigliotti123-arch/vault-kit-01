@@ -22,7 +22,7 @@ Vault
 Roblox specialist skills (Claude picks them, or call by name)
 - Design and research: roblox-game-ideas, roblox-trend-research, roblox-gdd-template, roblox-kb-answer, roblox-metrics-benchmarks.
 - Code: roblox-luau-style, roblox-remote-security, roblox-datastore-safe-save, roblox-round-based-game-loop, roblox-npc-pathfinding, roblox-ui-responsive, roblox-rojo-project-setup, roblox-performance-pass, roblox-leaderboards-and-events.
-- Money and marketing: roblox-monetisation-setup, roblox-monetization-audit, roblox-ad-campaign-planner, roblox-ad-thumbnail-brief, roblox-thumbnail-brief.
+- Money and marketing: roblox-monetisation-setup, roblox-monetization-audit, roblox-ad-campaign-planner, roblox-thumbnail-brief.
 - Launch and live: roblox-playtest-checklist, roblox-publish-checklist, roblox-launch-checklist, roblox-analytics-review. Assets: roblox-asset-finder.
 How it works: the Roblox knowledge base in this vault (sourced creator and official-docs notes, benchmarks, case studies) is the evidence. /game-dev-workflow turns your idea into a researched design, rates it, plans it with agents and models, and only after you say "Ready to build?" does a head manager build the Rojo/Luau project and playtest it. Nothing is published to Roblox and no Robux are spent. Update the vault any time with /update-rbxdev-vault (automatic updates at logon are optional and can be added on request). Nothing is loaded into your other Claude sessions: type /load-rbxdev-vault in the project folder where you want it.
 Built and maintained by Roman (GitHub: romangigliotti123-arch)

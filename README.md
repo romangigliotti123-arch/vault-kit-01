@@ -2,7 +2,7 @@
 
 Built and maintained by Roman (GitHub: romangigliotti123-arch)
 
-The Claude kit of the Roblox Dev Mastery Vault (Roblox game development knowledge base plus a manager toolkit): 15 Roblox agents, slash-command skills (`/game-dev-workflow`, `/make-roblox-game`, `/update-rbxdev-vault`, ...), helper tools, and the setup runbook for AI agents.
+The Claude kit of the Roblox Dev Mastery Vault (Roblox game development knowledge base plus a manager toolkit): 13 Roblox agents, slash-command skills (`/game-dev-workflow`, `/make-roblox-game`, `/update-rbxdev-vault`, ...), helper tools, and the setup runbook for AI agents.
 
 **Off by default.** The kit is installed but does not load into normal Claude Code sessions: its skills and agents sit in an on-demand store (`~/.claude/claude-kit/vault-mode/`). In a Roblox project folder, type `/load-rbxdev-vault`: that folder enters "Roblox dev mode" (the vault skills and agents, art-direction and visual-QA rules, reference images, learn step) and `/unload-rbxdev-vault` turns it off again. Always available: `/load-rbxdev-vault`, `/unload-rbxdev-vault`, `/update-rbxdev-vault`, `/update-check-rbxdev-vault`, `/uninstall-rbxdev-vault`.
 
