@@ -10,7 +10,7 @@ Side skills (each also works alone)
 - /rbx-rate : rate an idea 1.00-10.00 on 12 weighted criteria.
 - /rbx-plan : turn a rated idea into game-plan.md (systems, milestones, agents, models, budget).
 - /rbx-ads : ads plan for a game. /rbx-game-update : update and live-ops plan.
-- /rbx-playtest : playtest and bug report. /rbx-thumbnail : icon, thumbnails and screenshots, scored with a click-psychology rubric (thumb_score.py; results ledger thumb_record.py).
+- /rbx-playtest : playtest and bug report. /rbx-thumbnail : icon, thumbnails and screenshots, scored with a click-psychology rubric (thumb_score.py; results ledger thumb_record.py; optional Blender 3D renders via blender_gfx.py when Blender is installed).
 - /rbx-placement : placement gate; every model created, inserted or moved is measured in Studio (pivot, size, grounded, upright, facing, overlap, anchoring, connections), auto-fixed and re-verified; a full-map scan must pass before a game is called done. /rbx-lighting : lighting and atmosphere gate; the genre's preset (Future lighting, Atmosphere, Sky, Bloom, ColorCorrection, SunRays, mobile-safe variant) is applied early and a 12-check scan (not default Roblox, sane effects, brightness, shadows, fog, interiors, budget) must pass before a game is called done. /rbx-art : art bible before building. /rbx-visual : screenshot-based visual gate.
 - /rbx-tune : bounded metric loop for balance, optimise and polish: one number, a read-only evaluator, one change per experiment, keep only strict improvements, ledger in Games/<slug>/tune/ checked by tune_check.py.
 - /rbx-bench : scorecard of a game across every gate (0-100, history, compare), 3 standard test games, and what load mode costs a session.
