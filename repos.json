@@ -18,7 +18,7 @@
    "prefix": "vault-kit",
    "shards": [
     {
-     "approx_mb": 9.0,
+     "approx_mb": 9.1,
      "git": "https://github.com/romangigliotti123-arch/vault-kit-01.git",
      "mount": [],
      "name": "vault-kit-01"
