@@ -2,6 +2,17 @@
 
 Built and maintained by Roman (GitHub: romangigliotti123-arch)
 
+## Quick start
+
+**HOW TO START USING**
+- Start a new Claude session in your vault folder (for example `~/Obsidian/claudes-vault`; Windows `%USERPROFILE%/Obsidian/claudes-vault`). Claude app: New, choose that folder. Terminal: `cd` to it, then `claude`. Obsidian: Open folder as vault on the same path. That folder loads the whole vault automatically; no load command.
+
+**HOW TO SEE SKILLS AND AGENTS**
+- In that session type `/rbx-list` (skills, agents, mods), or type `/` and start typing `rbx-`. To learn what one skill does, ask "what does /rbx-<name> do".
+
+**HOW TO UPDATE**
+- Type `/rbx-update` (works from any session).
+
 The Claude kit of the Roblox Dev Mastery Vault (Roblox game development knowledge base plus a manager toolkit): 13 Roblox agents, slash-command skills (`/rbx-workflow`, `/rbx-make`, `/rbx-update`, ...), helper tools, and the setup runbook for AI agents.
 
 **Loaded only in the vault folder.** The kit is installed into `~/.claude/claude-kit` and does not load into normal Claude Code sessions. The vault folder itself (your clone, for example `~/Obsidian/claudes-vault`) is permanently loaded: the installer and every `/rbx-update` write the vault skills and agents, art-direction and visual-QA rules and reference-image pointers into its own `.claude/`, hidden from git together with your `Games/` and `Models/`. Load the vault by starting a Claude session in that folder; there is no load command. Always available everywhere: `/rbx-update`, `/rbx-check`, `/rbx-uninstall`.
