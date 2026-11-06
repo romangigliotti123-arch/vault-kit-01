@@ -33,13 +33,12 @@
     "Library/",
     "Manager/",
     "Mentor/",
-    "Roblox/",
-    "learned/"
+    "Roblox/"
    ],
    "prefix": "vault-notes",
    "shards": [
     {
-     "approx_mb": 110.6,
+     "approx_mb": 110.7,
      "git": "https://github.com/romangigliotti123-arch/vault-notes-01.git",
      "mount": [],
      "name": "vault-notes-01"
@@ -169,10 +168,5 @@
  "refs": {
   "git": "https://github.com/romangigliotti123-arch/vault-refs-01.git",
   "branch": "main"
- },
- "learnings": {
-  "git": "https://github.com/romangigliotti123-arch/vault-learnings.git",
-  "branch": "main",
-  "role": "inbox for contributed notes (claude-kit/tools/learn.py flush|pr); UNTRUSTED, never read as knowledge; curated notes appear in vault-notes under learned/"
  }
 }
