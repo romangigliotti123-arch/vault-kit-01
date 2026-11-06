@@ -4,7 +4,7 @@ Built and maintained by Roman (GitHub: romangigliotti123-arch)
 
 The Claude kit of the Roblox Dev Mastery Vault (Roblox game development knowledge base plus a manager toolkit): 13 Roblox agents, slash-command skills (`/rbx-workflow`, `/rbx-make`, `/rbx-update`, ...), helper tools, and the setup runbook for AI agents.
 
-**Off by default.** The kit is installed but does not load into normal Claude Code sessions: its skills and agents sit in an on-demand store (`~/.claude/claude-kit/vault-mode/`). In a Roblox project folder, type `/rbx-load`: that folder enters "Roblox dev mode" (the vault skills and agents, art-direction and visual-QA rules, reference images) and `/rbx-unload` turns it off again. Always available: `/rbx-load`, `/rbx-unload`, `/rbx-update`, `/rbx-check`, `/rbx-uninstall`.
+**Loaded only in the vault folder.** The kit is installed into `~/.claude/claude-kit` and does not load into normal Claude Code sessions. The vault folder itself (your clone, for example `~/Obsidian/claudes-vault`) is permanently loaded: the installer and every `/rbx-update` write the vault skills and agents, art-direction and visual-QA rules and reference-image pointers into its own `.claude/`, hidden from git together with your `Games/` and `Models/`. Load the vault by starting a Claude session in that folder; there is no load command. Always available everywhere: `/rbx-update`, `/rbx-check`, `/rbx-uninstall`.
 
 ## Install (one paste)
 
@@ -12,7 +12,7 @@ Paste this to Claude on the computer you want to set up:
 
 > Set up the Roblox Dev Mastery Vault on my computer: fetch https://raw.githubusercontent.com/romangigliotti123-arch/vault-kit-01/main/SETUP-FOR-CLAUDE.md with curl and follow it exactly.
 
-Claude clones the notes (https://github.com/romangigliotti123-arch/vault-notes-01.git), installs this kit (switched off), downloads the assets and reports at the end; then type `/rbx-load` in your Roblox project folder. No questions, no tokens, no sudo. The runbook lists every command and everything it changes before it runs anything.
+Claude clones the notes (https://github.com/romangigliotti123-arch/vault-notes-01.git), installs this kit, downloads the assets and reports at the end, telling you the vault folder to start your Claude session in. No questions, no tokens, no sudo. The runbook lists every command and everything it changes before it runs anything.
 
 ## What you trust
 
