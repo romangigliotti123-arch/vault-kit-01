@@ -10,6 +10,11 @@ Built and maintained by Roman (GitHub: romangigliotti123-arch)
 **HOW TO SEE SKILLS AND AGENTS**
 - In that session type `/rbx-list` (skills, agents, mods), or type `/` and start typing `rbx-`. To learn what one skill does, ask "what does /rbx-<name> do".
 
+**THE TWO MODS (ALREADY INSTALLED)**
+- Type `/reload-plugins` once (or start a new session) to activate them. They are Claude Code plugins that add an agent sidebar and a graph view and register hooks; they are enabled in your Claude user settings (`~/.claude`) and apply to ALL your Claude sessions, not only the vault folder.
+- `/rbx-subagent-hud` opens the agent sidebar; `/rbx-graph` shows the link to the vault graph site.
+- To turn them off: `/plugin` (disable or uninstall rbx-subagent-hud and rbx-graph), or run the installer with `--no-mods` (Windows `-NoMods`). If the mods were skipped, the installer prints this section as THE TWO MODS (NOT INSTALLED) with the exact install command instead.
+
 **HOW TO MAKE A GAME IDEA**
 - `/rbx-ideas`: finds ONE fresh idea based on what is doing best on the charts (single-player or open world). Reply "another" for a different one, "build it" to create the game folder, "plan" for the full plan.
 - `/rbx-idea-creator`: type it with your own idea to build it up, or on its own and it asks a few quick questions.
