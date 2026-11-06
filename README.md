@@ -20,7 +20,7 @@ Built and maintained by Roman (GitHub: romangigliotti123-arch)
 **HOW TO UPDATE**
 - Type `/rbx-update` (works from any session).
 
-The Claude kit of the Roblox Dev Mastery Vault (Roblox game development knowledge base plus a manager toolkit): 13 Roblox agents, slash-command skills (`/rbx-workflow`, `/rbx-make`, `/rbx-update`, ...), helper tools, and the setup runbook for AI agents.
+The Claude kit of the Roblox Dev Mastery Vault (Roblox game development knowledge base plus a manager toolkit): 18 Roblox agents (including the hidden-rubric idea judge), slash-command skills (`/rbx-workflow`, `/rbx-make`, `/rbx-update`, ...), helper tools, and the setup runbook for AI agents.
 
 **Loaded only in the vault folder.** The kit is installed into `~/.claude/claude-kit` and does not load into normal Claude Code sessions. The vault folder itself (your clone, for example `~/Obsidian/claudes-vault`) is permanently loaded: the installer and every `/rbx-update` write the vault skills and agents, art-direction and visual-QA rules and reference-image pointers into its own `.claude/`, hidden from git together with your `Games/` and `Models/`. Load the vault by starting a Claude session in that folder; there is no load command. Always available everywhere: `/rbx-update`, `/rbx-check`, `/rbx-uninstall`.
 
