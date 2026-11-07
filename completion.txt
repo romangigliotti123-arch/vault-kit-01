@@ -1,30 +1,22 @@
-The Roblox Dev Mastery Vault is now set up.
-Where it lives: <VAULT path> (Claude kit in ~/.claude, Roblox assets in <VAULT path>/Assets).
+**HOW TO START USING**
+- Start a new Claude session in <VAULT path>; that folder has everything loaded.
 
-Load the vault (the vault folder is the loaded environment; there is no load command)
-- Start a Claude session in <VAULT path> : that folder is loaded automatically (vault skills, agents, art-direction, placement, lighting and visual-QA rules, reference images) and your Games/ and Models/ live there. Your other Claude sessions stay clean. Always available in every session: /rbx-update /rbx-check /rbx-uninstall.
-Make a game (in the vault folder)
-- /rbx-workflow : the full flow. Give an idea (or none); it elaborates it from the vault, rates it 1.00-10.00, writes a build plan, asks "Ready to build?", then a head manager builds it and playtests.
-- /rbx-make : one sentence in, a Rojo/Luau game project out (also: say "make me a Roblox game: <idea>").
-Side skills (each also works alone)
-- /rbx-rate : rate an idea 1.00-10.00 on 12 weighted criteria.
-- /rbx-plan : turn a rated idea into game-plan.md (systems, milestones, agents, models, budget).
-- /rbx-ads : ads plan for a game. /rbx-game-update : update and live-ops plan.
-- /rbx-playtest : playtest and bug report. /rbx-thumbnail : icon, thumbnails and screenshots, scored with a click-psychology rubric (thumb_score.py; optional Blender 3D renders via blender_gfx.py when Blender is installed).
-- /rbx-placement : placement gate; every model created, inserted or moved is measured in Studio (pivot, size, grounded, upright, facing, overlap, anchoring, connections), auto-fixed and re-verified; a full-map scan must pass before a game is called done. /rbx-lighting : lighting and atmosphere gate; the genre's preset (Future lighting, Atmosphere, Sky, Bloom, ColorCorrection, SunRays, mobile-safe variant) is applied early and a 12-check scan (not default Roblox, sane effects, brightness, shadows, fog, interiors, budget) must pass before a game is called done. /rbx-art : art bible before building. /rbx-visual : screenshot-based visual gate.
-- /rbx-tune : bounded metric loop for balance, optimise and polish: one number, a read-only evaluator, one change per experiment, keep only strict improvements, ledger in Games/<slug>/tune/ checked by tune_check.py.
-- /rbx-bench : scorecard of a game across every gate (0-100, history, compare), 3 standard test games, and what load mode costs a session.
-Research
-- /rbx-research : deep multi-source research on any topic, saved to My Research/.
-Manager
-- /rbx-manager : this session delegates to right-sized worker agents (haiku/sonnet/opus).
-Vault
-- /rbx-update (overwrites the vault's own files, keeps My Research and the project's Games/ and Models/), /rbx-clean (exact copy of the main vault), /rbx-light-on and /rbx-light-off (hide or show the big supporting folders in Obsidian). /rbx-low-usage (keeps Claude in low usage mode: cheapest model, short replies, small tool output; /rbx-low-usage off ends it).
-Roblox specialist skills (Claude picks them, or call by name)
-- Design and research: rbx-ideas (Claude picks one idea as a short card), rbx-idea-creator (starts from your idea or guides you), rbx-trends, rbx-gdd, rbx-kb, rbx-metrics.
-- Code: rbx-luau (no code comments by default, one-line why only; lifecycle and leak cleanup; scanned by rbx-critic/scripts/comment_scan.py, scored not blocking), rbx-arch (OOP, components, ECS, state store or pool by evidence), rbx-code-rate (sharp-edges checklist, generated-vs-tested evidence ladder, code-quality scorecard gate), evidence_scan.py (rbx-critic/scripts: hedge words and claims without evidence in a final report, scored via code_gates.py --report), static_scan.py --triggers (token-triggered SE-n leads in tiers TR1-TR4), code gates (rbx-critic/scripts/code_gates.py: comment, scope and stubs, security, bug-ledger and tune-ledger checks; scored, never blocking; the critic cannot return GOOD until it ran them itself), rbx-playtest Fix loop (reproduce first, red then green, ledger), rbx-luau Smallest complete change, rbx-remote-sec, rbx-datastore, rbx-rounds, rbx-npc, rbx-ui, rbx-rojo, rbx-perf, rbx-leaderboard.
-- Money and marketing: rbx-monetize, rbx-monetize-audit, rbx-ads, rbx-thumb-brief.
-- Launch and live: rbx-playtest-list, rbx-publish, rbx-launch-check, rbx-analytics. Assets: rbx-assets.
-How it works: the Roblox knowledge base in this vault (sourced creator and official-docs notes, benchmarks, case studies) is the evidence. /rbx-workflow turns your idea into a researched design, rates it, plans it with agents and models, and only after you say "Ready to build?" does a head manager build the Rojo/Luau project and playtest it. Nothing is published to Roblox and no Robux are spent. Update the vault any time with /rbx-update (automatic updates at logon are optional and can be added on request). Nothing is loaded into your other Claude sessions: start a Claude session in <VAULT path> to use the vault.
-Optional question (no answer means no): Manual UI mockups: want Claude to give you prompts, reference images and steps to make UI mockups yourself with Nano Banana 2.1 on the Gemini website? Default is no: Claude designs the UI itself first. Change any time with /rbx-mockup on|off.
-Built and maintained by Roman (GitHub: romangigliotti123-arch)
+**HOW TO SEE SKILLS AND AGENTS**
+- Type /rbx-list in that session, or / then rbx-.
+
+**THE TWO MODS (ALREADY INSTALLED)**
+- Type /reload-plugins once; they run in the vault folder only. Remove: /plugin, or the installer's --no-mods.
+
+**HOW TO MAKE A GAME IDEA**
+- /rbx-ideas finds one fresh idea (reply another, build it or plan); /rbx-idea-creator starts from yours.
+
+**HOW TO BUILD A GAME**
+- /rbx-workflow builds a game stage by stage; resume with "I want to work on <game name>".
+
+**HOW TO UPDATE**
+- Type /rbx-update (works from any session).
+
+**NOT SURE WHICH SKILL?**
+- Tell Claude what you want to do and it names the skill; /rbx-list shows them all.
+
+More details: MANUAL-READ.md in the vault folder (or https://vault-hhmi60uo.netlify.app/manual).
