@@ -14,7 +14,7 @@
 - /rbx-workflow builds a game stage by stage; resume with "I want to work on <game name>".
 
 **HOW TO UPDATE**
-- Type /rbx-update (works from any session).
+- Type /rbx-update (works from any session, even after you move the vault folder).
 
 **NOT SURE WHICH SKILL?**
 - Just describe what you want; Claude offers the right skill and you reply yes.
