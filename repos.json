@@ -18,7 +18,7 @@
    "prefix": "vault-kit",
    "shards": [
     {
-     "approx_mb": 12.0,
+     "approx_mb": 12.1,
      "git": "https://github.com/romangigliotti123-arch/vault-kit-01.git",
      "mount": [],
      "name": "vault-kit-01"
@@ -114,6 +114,11 @@
     "img/grow-a-garden/",
     "img/guts-blackpowder/",
     "img/hellreaver-arena/",
+    "img/izzyfrm-animations/",
+    "img/izzyfrm-cutscenes/",
+    "img/izzyfrm-style-refs/",
+    "img/izzyfrm-ui-styles/",
+    "img/izzyfrm-vfx/",
     "img/jujutsu-shenanigans/",
     "img/lakeside-hill/",
     "img/livetopia/",
@@ -139,7 +144,7 @@
    "prefix": "vault-refs",
    "shards": [
     {
-     "approx_mb": 57.7,
+     "approx_mb": 108.3,
      "git": "https://github.com/romangigliotti123-arch/vault-refs-01.git",
      "mount": [],
      "name": "vault-refs-01"
