@@ -8,7 +8,7 @@ Built and maintained by Roman (GitHub: romangigliotti123-arch)
 - Start a new Claude session in your vault folder (for example `~/Obsidian/claudes-vault`); that folder has everything loaded.
 
 **HOW TO SEE SKILLS AND AGENTS**
-- Type `/rbx-list` in that session, or `/` then `rbx-`.
+- Type `/rbx-list` in that session, or `/` then `rbx-`. Make your own skill: ask Claude to use `/rbx-new-skill`.
 
 **THE TWO MODS (ALREADY INSTALLED)**
 - Type `/reload-plugins` once; they run in the vault folder only. Remove: `/plugin`, or the installer's `--no-mods`.
