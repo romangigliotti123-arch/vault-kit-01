@@ -11,7 +11,7 @@
 - /rbx-ideas finds one fresh idea (reply another, build it or plan); /rbx-idea-creator starts from yours.
 
 **HOW TO BUILD A GAME**
-- /rbx-workflow builds a game stage by stage; resume with "I want to work on <game name>".
+- /rbx-workflow builds a game stage by stage; it plans the design first (/rbx-design-pack: references, style test, UI examples, map layout, plan, in Figma if you connect it) and writes no game code until you approve. Resume with "I want to work on <game name>".
 
 **HOW TO UPDATE**
 - Type /rbx-update (works from any session, even after you move the vault folder).
